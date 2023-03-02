@@ -1,74 +1,52 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Esimene leht</title>
+    <title>Lesson2</title>
   </head>
-  <>
-    <h1>Heading 1</h1> <!-- Heading 1 kuni 6-->
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
-    <h5>Heading 5</h5>
-    <h6>Heading 6</h6>
+  <body>
+    <h1>HTML - HyperText Markup Language</h1>
+    <h3><i>Wikipedia, the free encyclopedia</i></h3>
+    <a href="new page.html"><h2>New Page</h2></a>
     <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus natus
-      possimus corrupti neque eligendi <br> <!-- uus rida -->
-       debitis nam officia totam, necessitatibus
-      sapiente ratione, at est culpa ipsam sed error. Cum, in. Ipsa.
-    </p>
-    <!--siin peaks olema midagi uut! Kommentaar -->
-    <p>Teine rida</p>
-    <p>
-      <strong>Tugev</strong>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates enim possimus nostrum vel fugiat reiciendis facere aperiam dolore dignissimos tempora obcaecati maxime aliquam nisi ipsam, distinctio iusto in nobis laborum.</p>
-    </p>
-    <hr> <!---horisontal line -->
-    
-    <ul> <!--unordered list-->
-      <li>banaan</li>
-      <li><strong>apelsin</strong></li>
-      <li>õun</li>
-    </ul> 
-    <ol> <!-- ordered list -->
-      <li>banaan</li>
-      <li>apelsin</li>
-      <li>õun</li>
-    </ol>
-    <hr> 
-  <!-- ctrl + Z - samm tagasi -->
-  <!-- ctrl + Y - samm edasi, taastab tegevuse -->
-  <!-- ctrl + X - Cut, kustutab ja kopeerib samal ajal-->
-  <!-- ctrl + C - copy -->
-  <!-- ctrl + V - paste -->
-  <img src="./images/pilt1.jpg" alt="mees programeerib"><br>
-  <!-- . algus kaust-->
-  <a href="https://www.google.com/" target="_blank">lingi nimetus</a> <!--target=_blank - link avaneb uuel tabil-->
-  <br>
-  <br>
-  <br>
-<!-- USE GET INSTEAD OF POST -->
-<form method="GET">
-<h2>Registreeru</h2>
-  <label>Eesnimi: <input type="text" name="Eesnimi"></label><br>
-  <label>Perenimi: <input type="text" name="Perenimi"></label><br>
-  <label>Email: <input type="email" name="email" required></label><br>
-  <label>Salasõna: <input type="password" min="5" name="password"></label><br>
-  <label>Sünnipäev: <input type="date" name="sünnipäev" required></label><br>
-  Sugu:<br>
-      <label><input type="radio" name="gender" value="Mees">Mees</label><br>
-      <label><input type="radio" name="gender" value="Naine">Naine</label><br>
-      <label><input type="radio" name="gender" value="Ei taha öelda">Other</label><br>
-  Koduloomad:<br>
-      <label><input type="checkbox" name="kass">kass</label><br>
-      <label><input type="checkbox" name="koer">koer</label><br>
-      <label><input type="checkbox" name="Teine">Teine</label><br>
-  Auto: <br>
-  <select name="Auto">
-      <option value="subaru" >Subaru</option><br>
-      <option value="Wolkswagen">Wolkswagen</option><br>
-      <option value="Audi">Audi</option><br></select><br>
-  <input type="submit" value="Register!">
-  <input type="reset">
-  </form>
-  <hr>
+      The HyperText Markup Language or HTML is the standard markup language for
+      documents designed to be displayed in a web browser. It is often assisted
+      by technologies such as Cascading Style Sheets (CSS) and scripting
+      languages such as JavaScript. <br />
+      Web browsers receive HTML documents from a web server or from local
+      storage and render the documents into multimedia web pages. HTML describes
+      the structure of a web page semantically and originally included cues for
+      its appearance.<br />
+      HTML elements are the building blocks of HTML pages. With HTML constructs,
+      images and other objects such as interactive forms may be embedded into
+      the rendered page. HTML provides a means to create structured documents by
+      denoting structural semantics for text such as headings, paragraphs,
+      lists, links, quotes, and other items. HTML elements are delineated by
+      tags, written using angle brackets. Tags such as and directly introduce
+      content into the page. Other tags such as and surround and provide
+      information about document text and may include sub-element tags. Browsers
+      do not display the HTML tags but use them to interpret the content of the
+      page.</p><br />
+      <br />
+      <img src="./images/pilt1.jpg" alt="man programming on computer" /><br />
+      <br>
+      <br>
+      <hr>
+      <h2> Registreeri kursusele!</h2>
+      <form>
+        <form method="GET"> <!-- USE GET instead of POST!-->
+        <label>Eesnimi: <input type="text" name="Eesnimi"</label><br>
+        <label>Perenimi: <input type="text" name="Perenimi"</label><br>
+        <label>Email: <input type="email" required</label><br>
+        <label>Sünnipäev <input type="date" required</label><br>
+        Sugu: <br> <!-- Radio button - SAAB VALIDA AINULT ÜHE.-->
+        <label><input type="radio" name="Sugu" value="Naine">Naine</label><br>
+        <label><input type="radio" name="Sugu" value="Mees">Mees</label><br>
+        <label><input type="radio" name="Sugu" value="Ei soovi öelda">Ei soovi öelda</label><br>
+        <label>Varasem kogemus
+          <select name="Varasem kogemus">
+            <option value="Puudub" >Puudub</option><br>
+            <option value="Vähene" >Vähene</option><br>
+            <option value="Spetsialist" >Spetsialist</option><br>
+      </form>
+  </body>
 </html>
