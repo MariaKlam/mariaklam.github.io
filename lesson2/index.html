@@ -46,12 +46,29 @@
   <br>
   <br>
   <br>
-    <label>nimi</label>
-    <input type="text"><br>
-    <label>password</label>
-    <input type="password"><br>
-    <input type="date"><br>
-    <button> CLICK ME</button>
+<!-- USE GET INSTEAD OF POST -->
+<form method="GET">
+<h2>Registreeru</h2>
+  <label>Eesnimi: <input type="text" name="Eesnimi"></label><br>
+  <label>Perenimi: <input type="text" name="Perenimi"></label><br>
+  <label>Email: <input type="email" name="email" required></label><br>
+  <label>Salasõna: <input type="password" min="5" name="password"></label><br>
+  <label>Sünnipäev: <input type="date" name="sünnipäev" required></label><br>
+  Sugu:<br>
+      <label><input type="radio" name="gender" value="Mees">Mees</label><br>
+      <label><input type="radio" name="gender" value="Naine">Naine</label><br>
+      <label><input type="radio" name="gender" value="Ei taha öelda">Other</label><br>
+  Koduloomad:<br>
+      <label><input type="checkbox" name="kass">kass</label><br>
+      <label><input type="checkbox" name="koer">koer</label><br>
+      <label><input type="checkbox" name="Teine">Teine</label><br>
+  Auto: <br>
+  <select name="Auto">
+      <option value="subaru" >Subaru</option><br>
+      <option value="Wolkswagen">Wolkswagen</option><br>
+      <option value="Audi">Audi</option><br></select><br>
+  <input type="submit" value="Register!">
+  <input type="reset">
   </form>
   <hr>
 </html>
