@@ -1,0 +1,107 @@
+body {
+  background-color: antiquewhite;
+}
+
+p {
+  color: #000000; /*HEX - Hexadecimal*/
+}
+
+.clientcolor {
+  color: rgb(17, 20, 226); /*RGB - red, green, blue, Alpha - labipaistvus*/
+  background-color: aqua;
+}
+
+.clientcolor2 {
+  color: brown; /*tekstina*/
+}
+
+/* . CLASS
+# ID*/
+
+#customerID {
+  font-size: 25px;
+}
+
+#customerID2 {
+  font-weight: bold;
+  color: rgb(21, 82, 16);
+}
+
+.extraColor {
+  color: crimson;
+}
+
+.div1,
+.div2 {
+  height: 70px;
+  /*overflow: hidden;*/
+  overflow: scroll;
+}
+
+.div2 {
+  background-color: aquamarine;
+}
+
+.border {
+  border-style: solid;
+}
+
+.border2 {
+  border-right-style: solid;
+}
+
+table {
+  font-size: larger;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th,
+td {
+  border-style: dotted;
+  padding: 10px;
+}
+
+.div3 {
+  position: static;
+  left: 50px;
+}
+
+.div4 {
+  position: relative;
+  left: 50px;
+  top: 20px;
+}
+
+.div5 {
+  position: fixed;
+  top: 100px;
+  right: 200px;
+  background-color: blueviolet;
+  left: 200px;
+}
+
+.div6 {
+  background-color: plum;
+  position: sticky;
+  width: 200px;
+  z-index: 1; /* z-index algab 0, aga mis on allpool see on eespool*/
+}
+
+img {
+  float: left;
+  margin-left: 15px;
+  background-color: blueviolet;
+}
+
+.inside {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+
+.inside2 {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
