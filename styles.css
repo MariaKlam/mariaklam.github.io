@@ -31,17 +31,16 @@ img {
   /* grid-area: area3; */
   display: flex;
   background-color: rgb(238, 241, 211);
-  padding: 30px;
+  padding: 25px;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 25px;
   display: inline-block;
 }
 
 img {
-  max-width: 60%;
+  max-width: 40%;
   height: auto;
   float: left;
 }
