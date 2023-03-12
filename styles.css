@@ -1,8 +1,3 @@
-.container > div {
-  width: auto;
-  text-align: left;
-}
-
 .item1 {
   /* grid-area: area1; */
   background-color: rgb(169, 209, 245);
@@ -48,4 +43,9 @@
     "area2 area3"; */
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 2fr;
+}
+
+.container > div {
+  width: auto;
+  text-align: left;
 }
