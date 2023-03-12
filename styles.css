@@ -42,7 +42,7 @@
 .container {
   display: grid;
   gap: 15px;
-  background-color: rgb(237, 241, 240);
+  background-color: rgb(127, 189, 173);
   /* grid-template-areas:
     "area1 area1"
     "area2 area3"; */
