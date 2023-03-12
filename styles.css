@@ -26,12 +26,28 @@
   line-height: 40px;
 }
 
-.item3 {
+.item3,
+img {
   /* grid-area: area3; */
-  background-color: rgb(175, 216, 206);
-  padding: 25px;
+  display: flex;
+  background-color: rgb(204, 207, 206);
+  padding: 30px;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 25px;
+  display: inline-block;
+}
+
+img {
+  max-width: 40%;
+  height: auto;
+  float: left;
+}
+
+.item3 {
+  padding-left: 40px;
 }
 
 .container {
