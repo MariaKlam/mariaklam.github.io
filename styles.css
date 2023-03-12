@@ -30,7 +30,7 @@
 .item3 {
   /* grid-area: area3; */
   background-color: aqua;
-  padding: 20px;
+  padding: 25px;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
 }
