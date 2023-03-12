@@ -13,6 +13,7 @@
 .item2 {
   /* grid-area: area2; */
   display: flex;
+  flex-direction: column;
   background-color: antiquewhite;
   flex-wrap: wrap;
   align-content: flex-start;
