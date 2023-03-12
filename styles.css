@@ -34,15 +34,14 @@ img {
   padding: 25px;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
-  justify-content: center;
   flex-wrap: wrap;
   display: inline-block;
 }
 
 img {
-  max-width: 40%;
+  max-width: 90%;
   height: auto;
-  float: left;
+  float: right;
 }
 
 .item3 {
