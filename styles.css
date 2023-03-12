@@ -5,12 +5,10 @@
 
 .item1 {
   grid-area: area1;
-  background-color: aliceblue;
-  text-align: center;
+  background-color: rgb(169, 209, 245);
 }
 
 .item2 {
-  text-align: center;
   grid-area: area2;
   background-color: antiquewhite;
   padding: 25px;
