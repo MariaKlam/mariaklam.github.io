@@ -12,8 +12,10 @@
 
 .item2 {
   /* grid-area: area2; */
+  display: flex;
   background-color: antiquewhite;
-  text-wrap: wrap;
+  flex-wrap: wrap;
+  align-content: flex-start;
   padding: 20px;
   grid-column: 1 / 2;
   grid-row: 2 / 3;
