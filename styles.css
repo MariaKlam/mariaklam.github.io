@@ -33,7 +33,7 @@
 
 .item3 {
   /* grid-area: area3; */
-  background-color: aqua;
+  background-color: rgb(175, 216, 206);
   padding: 25px;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
@@ -42,7 +42,7 @@
 .container {
   display: grid;
   gap: 15px;
-  background-color: rgb(127, 189, 173);
+  background-color: rgb(211, 226, 224);
   /* grid-template-areas:
     "area1 area1"
     "area2 area3"; */
