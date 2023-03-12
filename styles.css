@@ -30,7 +30,7 @@
 img {
   /* grid-area: area3; */
   display: flex;
-  background-color: rgb(204, 207, 206);
+  background-color: rgb(238, 241, 211);
   padding: 30px;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
