@@ -60,7 +60,7 @@ figure {
 .container {
   display: grid;
   gap: 15px;
-  background-color: rgb(208, 243, 238);
+  background-color: rgb(210, 248, 242);
   /* grid-template-areas:
     "area1 area1"
     "area2 area3"; */
@@ -81,6 +81,5 @@ figure {
     display: flex;
     align-items: center;
     margin-left: 10px;
-    border: dotted;
   }
 }
