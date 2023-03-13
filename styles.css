@@ -60,7 +60,7 @@ figure {
 .container {
   display: grid;
   gap: 15px;
-  background-color: rgb(192, 243, 236);
+  background-color: rgb(208, 243, 238);
   /* grid-template-areas:
     "area1 area1"
     "area2 area3"; */
@@ -76,8 +76,8 @@ figure {
 .sisutekst {
   font-size: 40px;
 }
-@media only screen and (max-width: 348px) {
+@media only screen and (max-width: 600px) {
   figure {
-    align-items: center;
+    width: auto;
   }
 }
