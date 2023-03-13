@@ -45,6 +45,18 @@ img {
   float: right;
 }
 
+figure {
+  float: right;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
 .container {
   display: grid;
   gap: 15px;
