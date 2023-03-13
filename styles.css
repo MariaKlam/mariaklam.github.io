@@ -60,7 +60,7 @@ figure {
 .container {
   display: grid;
   gap: 15px;
-  background-color: rgb(211, 226, 224);
+  background-color: rgb(192, 243, 236);
   /* grid-template-areas:
     "area1 area1"
     "area2 area3"; */
