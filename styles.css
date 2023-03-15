@@ -1,17 +1,55 @@
-.item1 {
-  /* grid-area: area1; */
-  background-color: rgb(196, 222, 245);
-  grid-column: 1 / 3;
-  grid-row: 1 / 2;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.item2 {
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+header {
+  display: grid;
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  margin-top: 50px;
+}
+
+header > div {
+  align-items: baseline;
+}
+
+h1 {
+  display: flex;
+  font-size: 70px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  float: left;
+}
+
+.header-text {
+  margin-right: 50px;
+  margin-top: 40px;
+  font-size: larger;
+  padding: 30px;
+  text-align: right;
+}
+
+.loengud {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.menu {
   /* grid-area: area2; */
   display: flex;
   flex-direction: column;
-  background-color: rgb(202, 202, 212);
   flex-wrap: wrap;
-  align-content: flex-start;
   padding: 25px;
   grid-column: 1 / 2;
   grid-row: 2 / 3;
@@ -21,28 +59,27 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-size: 18px;
+  font-size: smaller;
   font-weight: bold;
   line-height: 40px;
   position: sticky;
   top: 0px;
 }
 
-.item3 {
+.sisukast {
   /* grid-area: area3; */
   display: flex;
-  background-color: rgb(238, 241, 211);
   padding: 25px;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   flex-wrap: wrap;
   display: inline-block;
+  width: 100%;
 }
 
 img {
   max-width: 100%;
   height: auto;
-  float: right;
 }
 
 figure {
@@ -51,16 +88,15 @@ figure {
   height: auto;
   text-align: center;
   font-style: italic;
-  font-size: 16px;
+  font-size: smaller;
   font-weight: bold;
-  margin: 10px;
-  padding: 10px;
+  margin: 20px;
+  padding: 20px;
 }
 
 .container {
   display: grid;
   gap: 15px;
-  background-color: rgb(203, 240, 238);
   /* grid-template-areas:
     "area1 area1"
     "area2 area3"; */
@@ -75,6 +111,10 @@ figure {
 
 .sisutekst {
   font-size: 40px;
+}
+
+footer {
+  margin-bottom: 48px;
 }
 
 /* .item1 {
