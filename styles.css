@@ -129,6 +129,18 @@ footer {
   margin-bottom: 48px;
 }
 
+@media only screen and (min-width: 300px) {
+  .sisukast {
+    margin: 40px;
+  }
+}
+
+/* @media only screen and (max-width: 1500px) {
+  .sisukast {
+    margin-left: 100px;
+  }
+} */
+
 /* .item1 {
   background-image: url("pilt1.jpg");
   height: 200px;
