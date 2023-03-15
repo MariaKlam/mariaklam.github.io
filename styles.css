@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 30;
+  padding: 30;
   box-sizing: border-box;
 }
 
@@ -11,8 +11,8 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
-  width: 960px;
-  margin: auto;
+  /* width: 960px;
+  margin: auto;*/
 }
 
 header {
@@ -27,19 +27,24 @@ header > div {
 }
 
 h1 {
-  display: flex;
+  display: block;
   font-size: 70px;
   margin-left: 30px;
-  margin-bottom: 50px;
   float: left;
 }
 
 .header-text {
-  margin-right: 50px;
-  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 400px;
   font-size: larger;
-  padding: 30px;
-  text-align: right;
+  /* padding-left: 90px; */
+  text-align: left;
+  /* margin-block-start: 50px;
+  margin-block-end: 50px;
+  margin-inline-start: 50px;
+  margin-inline-end: 50px; */
+  flex-direction: column;
 }
 
 .loengud {
@@ -69,18 +74,23 @@ h1 {
 }
 
 .sisukast {
-  /* grid-area: area3; */
-  display: flex;
-  padding: 25px;
+  display: block;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
-  flex-wrap: wrap;
-  width: 100%;
+  margin-right: 80px;
+  margin-block-start: 25px;
+  margin-block-end: 500px;
+  margin-inline-start: 25px;
+  margin-inline-end: 500px;
 }
 
 img {
   max-width: 100%;
+  min-width: 250px;
   height: auto;
+  display: block;
+  padding: 30px;
+  padding-top: 0px;
 }
 
 figure {
@@ -126,4 +136,15 @@ footer {
   background-position: bottom;
   color: white;
   text-align: center;
+} */
+
+/* @media screen and (min-width: 1600px) {
+  font-family: xlarge;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+  -ms-touch-action: inherit;
+  touch-action: inherit;
 } */
