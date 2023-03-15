@@ -9,7 +9,9 @@ body {
 }
 
 .container {
-  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
   margin: auto;
 }
 
@@ -73,7 +75,6 @@ h1 {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   flex-wrap: wrap;
-  display: inline-block;
   width: 100%;
 }
 
@@ -92,6 +93,7 @@ figure {
   font-weight: bold;
   margin: 20px;
   padding: 20px;
+  display: block;
 }
 
 .container {
