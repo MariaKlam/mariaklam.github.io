@@ -34,17 +34,11 @@ h1 {
 }
 
 .header-text {
-  display: flex;
+  display: inline-block;
   flex-wrap: wrap;
-  margin-top: 400px;
   font-size: larger;
-  /* padding-left: 90px; */
   text-align: left;
-  /* margin-block-start: 50px;
-  margin-block-end: 50px;
-  margin-inline-start: 50px;
-  margin-inline-end: 50px; */
-  flex-direction: column;
+  /* float: right; */
 }
 
 .loengud {
@@ -74,7 +68,7 @@ h1 {
 }
 
 .sisukast {
-  display: block;
+  display: inline-block;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   margin-right: 80px;
@@ -86,10 +80,10 @@ h1 {
 
 img {
   max-width: 100%;
-  min-width: 150px;
+  min-width: 250px;
   height: auto;
   display: block;
-  padding: 30px;
+  padding: 10px;
   padding-top: 0px;
 }
 
@@ -122,22 +116,58 @@ figure {
 }
 
 .sisutekst {
-  font-size: 40px;
+  font-size: 48px;
+  margin-bottom: 50px;
+  line-height: 40px;
 }
 
 footer {
   margin-bottom: 48px;
 }
 
-@media only screen and (min-width: 300px) {
+.sisukast {
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  border-radius: 5px;
+  float: left;
+  padding: 10px;
+  margin-left: 1%;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+/* Narrow View ----------- */
+@media (max-width: 700px) {
   .sisukast {
-    margin: 40px;
+    width: 80%;
+  }
+
+  img {
+    width: 100%;
   }
 }
 
-/* @media only screen and (max-width: 1500px) {
+@media (max-width: 450px) {
   .sisukast {
-    margin-left: 100px;
+    width: 90%;
+  }
+}
+
+/* @media only screen and (max-width: 50px) {
+  .sisukast {
+    margin: 20px;
+    width: auto;
+  }
+
+  .header-text {
+    display: none;
+}
+
+@media only screen and (max-width: 1500px) {
+  .sisukast {
+    width: 100%;
   }
 } */
 
