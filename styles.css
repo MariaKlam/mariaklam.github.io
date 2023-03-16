@@ -133,7 +133,7 @@ footer {
   line-height: 1.5em;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 2000px) {
   .sisukast {
     display: block;
     margin-right: 1000px;
