@@ -138,6 +138,9 @@ footer {
     margin-right: 1000px;
   }
 } */
+.header-logo {
+  align-items: center;
+}
 body {
   background: #fff;
   font-family: "PT Sans", sans-serif;
