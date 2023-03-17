@@ -123,48 +123,36 @@
       aria-labelledby="bootstrapformLabel"
       aria-hidden="true">
       <div class="modal-dialog">
+        <div class="row justify-content-center">
         <div class="modal-content">
-          <div class="modal-header">
-            <h2 class="modal-title fs-5" id="bootstrapformLabel" style="font-size: large; font-weight: bold;">
-               Registreeri kursusele:<br>
-            </h2>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-              <div class="form-floating" style="margin-bottom: 25px;">
-                 <form style="font-weight: bold; line-height: 25px;">
-                  <div>
-                  <!-- <div style="display: inline-block" > -->
-                        <label style="float: left;">Eesnimi: <input type="text" name="Eesnimi" style="float: right;"</label><br />
-                        <label style="float: left;">Perekonnanimi: <input type="text" name="Perekonnanimi" style="float: right;"</label
-                        ><br />
-                        <label style="float: left;">Email: <input type="email" style="float: right;" width="100%" required</label><br />
-                        <label style="float: left;">Sünnipäev: <input type="date" style="float: right;" required</label><br />
-                        <label style="float: left;">Kursus: 
-        <select name="Kursus">
-          <option value="Puudub">Responsive Web Design</option>
-          <br />
-          <option value="Javascript for Beginners">Javascript for Beginners</option>
-          <br />
-          <option value="HTML5 and CSS">HTML5 and CSS</option>
-          <br />
-          <option value="Advanced Javascript">Advanced Javascript</option>
-          </select
-        ><br />
-
-                      </form>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal">
-              Sulge
-            </button>
-            <button type="button" class="btn btn-primary">Salvesta</button>
+          <div class="modal-header" style="align-items: first baseline;">
+            <h2 class="modal-title" style="fs-5, id="bootstrapformLabel">Registreeri kursusele</h2>
+              <div class="card-body py-md-4">
+               <form _lpchecked="1">
+                  <div class="form-group">
+                     <input type="text" class="form-control" id="Nimi" placeholder="Nimi">
+                <div class="form-group">
+                     <input type="email" class="form-control" id="email" placeholder="Email">
+                                    </div> 
+                                    <!-- <div class="form-group"> -->
+                                      <input type="text" class="form-control" id="Kursus" placeholder="Kursus">
+           <div class="form-group">
+              <input type="text" class="form-control" id="Telefon" placeholder="Telefon">
+           </div>
           </div> 
+           <div class="d-flex flex-row align-items-center justify-content-between">
+            <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal">
+            Sulge
+          </button>
+        <button class="btn btn-primary">Registreeri</button>
+               </form>
+             </div>
+          </div>
+        </div>
+        </div>
+        </div> 
   </body>
 </html>
