@@ -192,3 +192,8 @@ a:hover {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.modal-header {
+  display: flex;
+  flex-wrap: wrap;
+}
