@@ -138,9 +138,6 @@ footer {
     margin-right: 1000px;
   }
 } */
-.header-logo {
-  align-items: center;
-}
 body {
   background: #fff;
   font-family: "PT Sans", sans-serif;
@@ -201,10 +198,9 @@ a:hover {
   flex-wrap: wrap;
 }
 
-footer {
-  height: 600px;
+/* header {
   background-image: url(https://images.rawpixel.com/image_1000/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdHAyMzgtYmFja2dyb3VuZC0wOC5qcGc.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
