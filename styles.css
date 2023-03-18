@@ -209,6 +209,13 @@ input {
   color: #ffffff;
 }
 
+.btn-otsi:hover {
+  background-color: #7be4e7;
+  border-color: #7be4e7;
+  transition: 0.3s;
+  color: #ffffff;
+}
+
 .modal-title {
   margin: 25px;
   font-size: 18px;
