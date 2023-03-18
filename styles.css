@@ -204,6 +204,11 @@ input {
   margin-top: 20px;
 }
 
+.btn-otsi {
+  margin-right: 0px;
+  color: #ffffff;
+}
+
 .modal-title {
   margin: 25px;
   font-size: 18px;
