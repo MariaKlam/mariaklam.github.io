@@ -147,7 +147,6 @@ a:hover {
 .card-title {
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 15px;
 }
 
 .form-control {
@@ -155,6 +154,7 @@ a:hover {
   margin-bottom: 1.3rem;
   margin: 30px;
   align-items: center;
+  line-height: 20px;
 }
 
 .form-control:focus {
@@ -172,6 +172,11 @@ a:hover {
   display: inline-block;
   padding: 0;
   margin: 0;
+  line-height: 0%;
+}
+
+input {
+  margin-bottom: 10px;
 }
 
 .btn {
@@ -186,24 +191,17 @@ a:hover {
 }
 
 .btn-primary {
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  margin-right: 65px;
 }
 
 .btn-secondary {
   background-color: gray;
   border-color: gray;
-  margin-left: 30px;
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-bottom: 15px;
 }
 
-/* .btn-kursus {
-  background: #3aabf7;
-  border-color: #3aabf7;
-  margin-bottom: 15px;
-  color: #ffffff;
-} */
 .modal-title {
   margin: 25px;
   font-size: 18px;
@@ -257,4 +255,9 @@ footer {
   background-size: cover;
   margin-top: 40px;
   margin-bottom: 0px;
+}
+
+.modal-content {
+  max-width: 450px;
+  margin: auto;
 }
