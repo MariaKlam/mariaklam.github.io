@@ -204,7 +204,8 @@ input {
   margin-top: 20px;
 }
 
-.btn-otsi {
+.btn-otsi,
+.navbar-toggler {
   margin-right: 0px;
   color: #ffffff;
 }
@@ -274,6 +275,9 @@ footer {
   margin-bottom: 0px;
 }
 
-.x-nav-wrap.mobile {
-  background-color: white !important;
+@media (max-width: 1000px) {
+  .navbar-collapse {
+    background-color: white;
+    padding: 20px;
+  }
 }
