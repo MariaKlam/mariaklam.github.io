@@ -1,11 +1,7 @@
-/* * {
+* {
   margin: 30;
   padding: 30;
   box-sizing: border-box;
-} */
-* {
-  margin: 0;
-  padding: 0;
 }
 
 body {
@@ -30,9 +26,6 @@ header {
   display: grid;
   grid-column: 1 / 3;
   grid-row: 1 / 2;
-  background-image: url("taust.jpg") no-repeat;
-  background-size: 100% 100%;
-  width: 100%;
   display: inline-block;
   height: 200px;
 }
@@ -109,11 +102,6 @@ figure {
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 2fr;
 }
-
-/* .container > div {
-  width: auto;
-  text-align: left;
-} */
 
 .sisutekst {
   font-size: 48px;
@@ -253,7 +241,7 @@ input {
 }
 
 header {
-  /* The image used */
+  /* Taustapilt headerisse*/
   background-image: url("taust.jpg");
 
   /* Full height */
