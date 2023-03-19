@@ -263,7 +263,7 @@ footer {
   margin-bottom: 0px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1000px) {
   .navbar-collapse {
     background-color: white;
     padding: 20px;
