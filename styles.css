@@ -84,6 +84,7 @@ a:hover {
 }
 .card {
   border: 0.4rem solid #f8f9fa;
+  margin-inline: 5px;
   top: 10%;
 }
 
