@@ -26,8 +26,6 @@ header {
   background-image: url("taust.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  height: 50vh;
 }
 
 h1 {
