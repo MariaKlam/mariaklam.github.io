@@ -100,6 +100,7 @@
           <li><a href="lesson6/">Lesson6 / Bootstrap</a></li>
           <li><a href="Counter/">Kodutöö: Counter 1</a></li>
           <li><a href="Counter2/">Kodutöö: Counter 2</a></li>
+          <li><a href="Counter3/">Kodutöö: Counter 3</a></li>
 
         </ul>
       </div>
@@ -115,13 +116,6 @@
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, fuga praesentium! 
                   Nobis quas consequatur illo culpa aliquid provident magni facere ducimus nam accusantium ab autem beatae
                    ea eaque, corporis in labore officiis ullam numquam. Molestias unde earum tenetur libero porro!</p>
-                   <div id="main">
-                    <div id="displayCounter" style="font-size: 30px;"></div>
-                    <br />
-                    <button id="increment" style="padding: 15px;">+</button>
-                    <button id="decrement" style="padding: 15px;">-</button>
-                    <button id="reset" style="padding: 15px;">Reset</button><br /><br />
-                  </div>
                 <button
                 type="button"
                 class="btn btn-primary"
@@ -238,40 +232,5 @@
            </div>
          </div>
       </div>
-      <script>
-        var productCounter = {
-         count: 0,
-         incrementCounter: function () {
-         if (this.count < 100) {
-           return (this.count = this.count + 1);
-         } else {
-           return this.count;
-         }
-        },
-        decrementCounter: function () {
-         if (this.count > 0) {
-           return (this.count = this.count - 1);
-         } else {
-           return (this.count = 0);
-         }
-       },
-       resetCounter: function () {
-         return (this.count = 0);
-       },
-     };
-     
-     var displayCout = document.getElementById("displayCounter");
-     displayCout.innerHTML = 0;
-     
-     document.getElementById("increment").onclick = function () {
-       displayCout.innerHTML = productCounter.incrementCounter();
-     };
-     document.getElementById("decrement").onclick = function () {
-       displayCout.innerHTML = productCounter.decrementCounter();
-     };
-     document.getElementById("reset").onclick = function () {
-       displayCout.innerHTML = productCounter.resetCounter();
-     };
-         </script>
     </body>
 </html>
