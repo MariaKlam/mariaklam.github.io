@@ -13,7 +13,7 @@
         align-items: center;
         flex-direction: column;
       }
-      .counter-display {
+      h1 {
         font-size: 90px;
         color: rgb(71, 9, 243);
         margin: 10px 0px;
@@ -29,42 +29,38 @@
   </head>
   <body>
     <div class="container">
-    <h1 class="counter-display">(..)</h1>
-    <div>
-    <button class="counter-minus">-</button>
-    <button class="counter-plus">+</button>
-    <button class="counter-reset">Reset</button>
+    <h1 id="counter-display">0</h1>
+    <div>  
+      <button onclick="plus()">+</button>
+      <button onclick="minus()">-</button>
+      <button onclick="reset()">Reset</button> 
   </div>
   </div>
   </body>
   <script>
-    let counterDisplayElem = document.querySelector('.counter-display');
-    let counterMinusElem = document.querySelector('.counter-minus');
-    let counterPlusElem = document.querySelector('.counter-plus');
-    let counterResetElem = document.querySelector('.counter-reset');
+        let count = 0;
 
-    let count = 0;
+        function plus() {
+        count++;
+        document.getElementById("counter-display").innerHTML = count;
+        }
 
-    updateDisplay();
 
-    counterPlusElem.addEventListener("click",()=>{
-    count++;
-    updateDisplay();
-    }) ;
+        function minus() {
+        count--;
+        document.getElementById("counter-display").innerHTML = count;
+       }
 
-    counterMinusElem.addEventListener("click",()=>{
-    count--;
-    updateDisplay();
-    });
-    counterResetElem.addEventListener("click",()=>{
-    count = 0;
-    updateDisplay();
-    });
 
-    function updateDisplay(){
-    counterDisplayElem.innerHTML = count;
-    };
-</script>
- </body>
+        function reset() {
+        count = 1;
+        document.getElementById("counter-display").innerHTML = count;
+        }
+
+        function updateDisplay(){
+        counterDisplayElem.innerHTML = count;
+        };
+      </script>
+  </body>
  </html>
-</html>
+
