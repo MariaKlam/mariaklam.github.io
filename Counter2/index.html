@@ -29,7 +29,7 @@
   </head>
   <body>
     <div class="container">
-    <h1 id="counter-display">0</h1>
+    <h1 id="counter">0</h1>
     <div>  
       <button onclick="plus()">+</button>
       <button onclick="minus()">-</button>
@@ -42,19 +42,19 @@
 
         function plus() {
         count++;
-        document.getElementById("counter-display").innerHTML = count;
+        document.getElementById("counter").innerHTML = count;
         }
 
 
         function minus() {
         count--;
-        document.getElementById("counter-display").innerHTML = count;
+        document.getElementById("counter").innerHTML = count;
        }
 
 
         function reset() {
-        count = 1;
-        document.getElementById("counter-display").innerHTML = count;
+        count = 0;
+        document.getElementById("counter").innerHTML = count;
         }
 
         function updateDisplay(){
