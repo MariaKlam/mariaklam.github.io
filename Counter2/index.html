@@ -4,42 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .container {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .counter-display {
+        font-size: 90px;
+        color: rgb(71, 9, 243);
+        margin: 10px 0px;
+      }
+
+      button {
+        font-size: 18px;
+        padding: 15px 15px;
+        margin: 10px;
+      }
+    </style>
     <title>Counter</title>
   </head>
   <body>
+    <div class="container">
     <h1 class="counter-display">(..)</h1>
+    <div>
     <button class="counter-minus">-</button>
     <button class="counter-plus">+</button>
     <button class="counter-reset">Reset</button>
+  </div>
+  </div>
   </body>
-    <script>
+  <script>
     let counterDisplayElem = document.querySelector('.counter-display');
-let counterMinusElem = document.querySelector('.counter-minus');
-let counterPlusElem = document.querySelector('.counter-plus');
-let counterResetElem = document.querySelector('.counter-reset');
+    let counterMinusElem = document.querySelector('.counter-minus');
+    let counterPlusElem = document.querySelector('.counter-plus');
+    let counterResetElem = document.querySelector('.counter-reset');
 
-let count = 0;
+    let count = 0;
 
-updateDisplay();
+    updateDisplay();
 
-counterPlusElem.addEventListener("click",()=>{
+    counterPlusElem.addEventListener("click",()=>{
     count++;
     updateDisplay();
-}) ;
+    }) ;
 
-counterMinusElem.addEventListener("click",()=>{
+    counterMinusElem.addEventListener("click",()=>{
     count--;
     updateDisplay();
-});
-counterResetElem.addEventListener("click",()=>{
-  count = 0;
+    });
+    counterResetElem.addEventListener("click",()=>{
+    count = 0;
     updateDisplay();
-});
+    });
 
-function updateDisplay(){
+    function updateDisplay(){
     counterDisplayElem.innerHTML = count;
-};
-
+    };
 </script>
  </body>
  </html>
