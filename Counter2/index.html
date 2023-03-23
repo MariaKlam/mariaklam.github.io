@@ -29,38 +29,34 @@
   </head>
   <body>
     <div class="container">
-    <h1 id="counter">0</h1>
-    <div>  
-      <button onclick="plus()">+</button>
-      <button onclick="minus()">-</button>
-      <button onclick="reset()">Reset</button> 
-  </div>
-  </div>
-  </body>
-  <script>
-        let count = 0;
+      <h1 id="counter">0</h1>
+      <div>
+        <button onclick="plus()">+</button>
+        <button onclick="minus()">-</button>
+        <button onclick="reset()">Reset</button>
+      </div>
+    </div>
+    <script>
+      let count = 0;
 
-        function plus() {
+      function plus() {
         count++;
         document.getElementById("counter").innerHTML = count;
-        }
+      }
 
-
-        function minus() {
+      function minus() {
         count--;
         document.getElementById("counter").innerHTML = count;
-       }
+      }
 
-
-        function reset() {
+      function reset() {
         count = 0;
         document.getElementById("counter").innerHTML = count;
-        }
+      }
 
-        function updateDisplay(){
+      function updateDisplay() {
         counterDisplayElem.innerHTML = count;
-        };
-      </script>
+      }
+    </script>
   </body>
- </html>
-
+</html>
