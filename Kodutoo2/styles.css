@@ -7,9 +7,26 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 ul {
   padding: 0px;
   margin: 0px;
+}
+
+p {
+  padding: 20px;
+  padding-top: 0px;
+  font-size: px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h5 {
+  padding-top: 25px;
+  margin-bottom: 0px;
 }
 
 .header {
@@ -18,7 +35,6 @@ ul {
   justify-content: center;
   width: 100%;
   height: 100px;
-  border-bottom: 1px solid #6f808c;
 }
 
 /* Container for input fields to add new list items */
@@ -32,24 +48,29 @@ ul {
 #inputArea {
   position: relative;
   width: 100%;
+
+  border-radius: 10px 10px 10px 10px;
+  background-image: url(pilt2.jpg);
+  background-size: cover;
+  color: #0d0d0e;
+  border-radius: 10px 10px 10px 10px;
+  border: 2px solid #6f808c;
 }
 
 .listInput #userInput {
   /* Text field for new items */
-  background: #cae9ff;
   color: #6f808c;
   border: 2px solid #6f808c;
-  height: 200px;
-  width: 100%;
+  height: 100px;
+  width: 300px;
   border-radius: 10px 10px 10px 10px;
   text-align: center;
-  transition: all 0.2s;
   margin: 20px;
 }
 
 .listInput #userInput:hover {
   /* Text field hover effect */
-  background: #ebf7ff;
+  background: #d9eaf7;
 }
 
 .listInput #userInput:focus {
@@ -63,20 +84,19 @@ ul {
 
 /* Custom buttons for textfield and list item buttons (> & X)*/
 .custBtn {
-  bottom: 10px;
   align-items: center;
-  background: transparent;
-  color: #6f808c;
+  background: #0f8fe4;
+  color: #fdfbfb;
+  margin: 15px;
   width: 40px;
   height: 60px;
   border: 3px solid transparent;
   border-left: 0px;
-  border-radius: 0 10px 10px 0;
-  transition: all 0.2s;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .custBtn:hover {
-  color: #a6bfd1;
+  color: #000000;
   cursor: pointer;
 }
 
@@ -99,11 +119,11 @@ ul {
   border: 2px solid #6f808c;
   color: #6f808c;
   height: 300px;
-  width: 400px;
+  width: 500px;
   list-style: none;
-  background-image: url(pilt1.jpg);
+  background-image: url(pilt2.jpg);
   background-size: cover;
-  color: #fdfafa;
+  color: #080808;
 }
 
 .mainList .listItem:hover {
@@ -111,20 +131,10 @@ ul {
   cursor: pointer;
 }
 
-.mainList .listItem:not(:first-child):not(:last-child) {
+.mainList .listItem {
   border-top: 1px solid #6f808c;
   border-bottom: 1px solid #6f808c;
-}
-
-.mainList .listItem:nth-child(2) {
-  border-radius: 10px 10px 0px 0px;
-  border-bottom: 1px solid #6f808c;
-}
-
-.mainList .listItem:nth-last-child(1) {
-  border-radius: 0px 0px 10px 10px;
-
-  border-top: 1px solid #6f808c;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .done {
