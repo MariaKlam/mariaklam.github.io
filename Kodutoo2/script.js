@@ -25,17 +25,6 @@ function createListItem() {
     li.classList.toggle("done");
   }
 }
-
-function CardToListItem() {
-  var card = document.createElement("card");
-  card.classList.add("li");
-  card.classList.add("ul");
-  li.append(document.createTextNode(input.value));
-  card.appendChild(li);
-  li.appendChild(card);
-  document.getElementById("card").appendChild(li);
-}
-
 // On click
 function addClick() {
   if (addItemLength() > 0) {
