@@ -48,11 +48,10 @@ h5 {
 #inputArea {
   position: relative;
   width: 100%;
-
   border-radius: 10px 10px 10px 10px;
-  background-image: url(pilt2.jpg);
+  background-image: url(pilt1.jpg);
   background-size: cover;
-  color: #0d0d0e;
+  color: #ffffff;
   border-radius: 10px 10px 10px 10px;
   border: 2px solid #6f808c;
 }
@@ -85,8 +84,8 @@ h5 {
 /* Custom buttons for textfield and list item buttons (> & X)*/
 .custBtn {
   align-items: center;
-  background: #0f8fe4;
-  color: #fdfbfb;
+  background: #ffffff;
+  color: #000000;
   margin: 15px;
   width: 40px;
   height: 60px;
@@ -96,7 +95,7 @@ h5 {
 }
 
 .custBtn:hover {
-  color: #000000;
+  color: #0400ff;
   cursor: pointer;
 }
 
@@ -121,9 +120,9 @@ h5 {
   height: 300px;
   width: 500px;
   list-style: none;
-  background-image: url(pilt2.jpg);
+  background-image: url(pilt1.jpg);
   background-size: cover;
-  color: #080808;
+  color: #ffffff;
 }
 
 .mainList .listItem:hover {
