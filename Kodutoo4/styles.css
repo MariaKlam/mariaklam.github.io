@@ -1,0 +1,145 @@
+body {
+  background: #cae9ff;
+  font-family: Verdana, Geneva, sans-serif;
+  height: 100%;
+  display: grid;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+p {
+  padding: 20px;
+  padding-top: 0px;
+  font-size: px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h5 {
+  padding-top: 5px;
+  margin-bottom: 0px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+
+/* Container for input fields to add new list items */
+.listInput {
+  /* Input box container*/
+  padding-top: 40px;
+  font-size: 24px;
+  text-align: center;
+}
+/* Container for input field + button */
+#inputArea {
+  position: relative;
+  width: 100%;
+  border-radius: 10px 10px 10px 10px;
+  background: #b1cff1;
+  color: #050505;
+  border: 2px solid #6f808c;
+}
+
+.listInput #userInput {
+  /* Text field for new items */
+  color: #6f808c;
+  border: 2px solid #6f808c;
+  height: 100px;
+  width: 300px;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  margin: 20px;
+}
+
+.listInput #userInput:hover {
+  /* Text field hover effect */
+  background: #ffffff;
+}
+
+.listInput #userInput:focus {
+  /* Text field focus effects */
+  box-shadow: none;
+  outline: none;
+  background: #ebf7ff;
+}
+/* End container for input field +button*/
+/* End container for input fields to add new list items */
+
+/* Custom buttons for textfield and list item buttons (> & X)*/
+.custBtn {
+  align-items: center;
+  background: #ffffff;
+  color: #000000;
+  margin: 15px;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #6f808c;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.custBtn:hover {
+  color: #0400ff;
+  cursor: pointer;
+}
+
+.custBtn:focus {
+  outline: none;
+}
+/* End buttons */
+
+/* Container for list items */
+.mainList {
+  padding-top: 20px;
+  word-wrap: break-word;
+}
+/* List items */
+.mainList .listItem {
+  padding: 40px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  background: #cae9ff;
+  border: 2px solid #6f808c;
+  color: #6f808c;
+  height: 400px;
+  width: 350px;
+  list-style: none;
+  background-image: url(pilt1.jpg);
+  background-size: cover;
+  color: #ffffff;
+}
+
+.mainList .listItem:hover {
+  /* List items hover effect */
+  cursor: pointer;
+}
+
+.mainList .listItem {
+  border-top: 1px solid #6f808c;
+  border-bottom: 1px solid #6f808c;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+.card-img {
+  height: 200px;
+}
+
+.customDiv {
+  background-color: #ebf7ff;
+}

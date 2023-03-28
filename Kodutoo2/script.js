@@ -39,9 +39,5 @@ function addKey(event) {
   }
 }
 
-// function GetImage(myfile) {
-//   return value.substring(myfile.lastIndexOf("\\") + 1);
-// }
-
 addBtn.addEventListener("click", addClick);
 input.addEventListener("keypress", addKey);
