@@ -51,7 +51,6 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   background: #b1cff1;
   color: #050505;
-  border-radius: 10px 10px 10px 10px;
   border: 2px solid #6f808c;
 }
 
@@ -109,14 +108,13 @@ h5 {
 }
 /* List items */
 .mainList .listItem {
-  padding-left: 20px;
-  margin-bottom: 5px;
+  padding: 40px;
   font-size: 32px;
   background: #cae9ff;
   border: 2px solid #6f808c;
   color: #6f808c;
   height: 400px;
-  width: 390px;
+  width: 340px;
   list-style: none;
   background-image: url(pilt1.jpg);
   background-size: cover;
