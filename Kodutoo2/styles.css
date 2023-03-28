@@ -49,8 +49,7 @@ h5 {
   position: relative;
   width: 100%;
   border-radius: 10px 10px 10px 10px;
-  /* background-image: url(pilt1.jpg); */
-  background-size: cover;
+  background: #8ec2fd;
   color: #050505;
   border-radius: 10px 10px 10px 10px;
   border: 2px solid #6f808c;
@@ -118,7 +117,7 @@ h5 {
   border: 2px solid #6f808c;
   color: #6f808c;
   height: 400px;
-  width: 400px;
+  width: 390px;
   list-style: none;
   background-image: url(pilt1.jpg);
   background-size: cover;
