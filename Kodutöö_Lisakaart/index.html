@@ -1,53 +1,24 @@
 <html>
   <head>
     <title>My Todo App</title>
-    <style>
-      .card {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        transition: 0.3s;
-        width: 40%;
-      }
-
-      .card:hover {
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="card">
-      <h6>Kaart</h6>
-      <ul id="todoList">
-        <li class="Todo-Item"></li>
-      </ul>
-      <script src="./script.js"></script>
-      <button onclick="newcard()">LISA</button>
-      <input id="userInput" type="text" placeholder="LISA OMA ANDMED" />
-
-      <div id="test"></div>
+    <div class="main">
+      <div class="allcards">
+        <div class="card" style="width: auto; height: 400px;">
+            <img style="height: 200px" src="./pilt1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="forms1">
+                <div class="tiitel"><input id="titel" style="width: 50%;" type="text" placeholder="Nimi"></div>
+                <div class="sisu"><input id="content" style="width: 50%;" type="text" placeholder="Telefon"></div>
+                <div class="addcard"><button id = addCard class= "btn btn-primary" onclick="addCard()">
+                <h3>Lisa kaart</h3></button></div>
+              </div>
+          </button>
+        </div>
+      </div>
     </div>
-    <script>
-      function newcard() {
-        var node1 = document.createElement("div");
-        node3.innerHTML = "div";
-        var node2 = document.createElement("p");
-        node2.innerHTML = "test para";
-        var node3 = document.createElement("img");
-        node3.innerHTML = "picture";
-
-        node3.classList.add("test1");
-        node3.classList.add("test2");
-        node1.appendChild(node3);
-        node1.appendChild(node2);
-        document.getElementById("userInput").appendChild(node1);
-
-        node2.appendChild(node1);
-        node2.appendChild(node3);
-        document.getElementById("card").appendChild(node2);
-
-        node3.appendChild(node2);
-        node3.appendChild(node1);
-        document.getElementById("card").appendChild(node3);
-      }
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>

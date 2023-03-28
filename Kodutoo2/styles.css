@@ -49,9 +49,9 @@ h5 {
   position: relative;
   width: 100%;
   border-radius: 10px 10px 10px 10px;
-  background-image: url(pilt1.jpg);
+  /* background-image: url(pilt1.jpg); */
   background-size: cover;
-  color: #ffffff;
+  color: #050505;
   border-radius: 10px 10px 10px 10px;
   border: 2px solid #6f808c;
 }
@@ -69,7 +69,7 @@ h5 {
 
 .listInput #userInput:hover {
   /* Text field hover effect */
-  background: #d9eaf7;
+  background: #ffffff;
 }
 
 .listInput #userInput:focus {
@@ -117,8 +117,8 @@ h5 {
   background: #cae9ff;
   border: 2px solid #6f808c;
   color: #6f808c;
-  height: 300px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
   list-style: none;
   background-image: url(pilt1.jpg);
   background-size: cover;

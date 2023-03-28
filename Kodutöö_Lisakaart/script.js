@@ -1,22 +1,35 @@
-function newcard() {
-  var node1 = document.createElement("div");
-  node3.innerHTML = "div";
-  var node2 = document.createElement("p");
-  node2.innerHTML = "test para";
-  var node3 = document.createElement("img");
-  node3.innerHTML = "picture";
+var a = 1;
+var add = function (liitmine) {
+  a += liitmine;
+  document.getElementById("value").innerHTML = a;
+};
 
-  node3.classList.add("test1");
-  node3.classList.add("test2");
-  node1.appendChild(node3);
-  node1.appendChild(node2);
-  document.getElementById("card").appendChild(node1);
+var min = function (lahutamine) {
+  a -= lahutamine;
+  document.getElementById("value").innerHTML = a;
+};
 
-  node2.appendChild(node1);
-  node2.appendChild(node3);
-  document.getElementById("card").appendChild(node2);
+var reset = function (reset) {
+  a = 0;
+  document.getElementById("value").innerHTML = a;
+};
 
-  node3.appendChild(node2);
-  node3.appendChild(node1);
-  document.getElementById("card").appendChild(node3);
-}
+$(document).ready(function () {
+  $("#addCard").click(function () {
+    var cardtitle = $("#titel").val();
+    var cardtext = $("#content").val();
+    let cards =
+      '<div class="card" style="width: auto;">' +
+      '<div class="card-body"><img style="height: 200px" src="./pilt11.jpg" class="card-img-top" alt="...">' +
+      '<h5 class="card-title">' +
+      cardtitle +
+      "</h5>" +
+      '<p class="card-text">' +
+      cardtext +
+      "</p>" +
+      "</div>" +
+      "</div>";
+
+    $(".newcards").append(cards);
+  });
+});
