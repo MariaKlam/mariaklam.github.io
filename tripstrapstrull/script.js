@@ -1,5 +1,5 @@
 let cells = document.querySelectorAll(".cell");
-cells = Array.from(cells);
+cells = Array.from(cells); //convert list to array of all the cells
 
 let currentPlayer = "X";
 
@@ -15,12 +15,13 @@ let winningCombinations = [
 ];
 
 function checkForWinner() {
+  //look through all winning combinations
   winningCombinations.forEach(function (combination) {
     let check = combination.every(
-      (idx) => cells[idx].innerText.trim() == currentPlayer
+      (idx) => cells[idx].innerText.trim() == currentPlayer //idx as index, is equal to CurrentPlayer
     );
     if (check) {
-      highlightCells(combination);
+      highlightCells(combination); //winningcombination
     }
   });
 }
@@ -33,9 +34,10 @@ function highlightCells(combination) {
 
 cells.forEach(function (cell) {
   cell.addEventListener("click", function () {
-    if (cell.innerText.trim() != "") return;
+    if (cell.innerText.trim() != "") return; //not equals to empty string, return
     cell.innerText = currentPlayer;
     checkForWinner();
-    currentPlayer = currentPlayer == "X" ? "O" : "X";
+    currentPlayer = currentPlayer == "X" ? "O" : "X"; //if previously current player was X, set curent player to 0, otherwise X
+    //alternate between cross and circle
   });
 });
