@@ -41,3 +41,5 @@ cells.forEach(function (cell) {
     //alternate between cross and circle
   });
 });
+
+// let - literal, variable limited to the scope of a block

@@ -26,7 +26,7 @@ var gameBoard = ["", "", "", "", "", "", "", "", ""]; // Tühi string
 // ["", "", "", "", "", "", "", "", ""] - Tühi
 // ["", "", "", "", "", "", "", "", "x"] - Mäng poole peal
 // ["x", "0", "x", "x", "0", "x", "x", "0", "x"] - Täis
-
+var gameOver;
 // Valitud kasti lisame X või O
 function MakeMove(pos) {
   if (gameBoard[pos].length == 0) {
@@ -118,3 +118,4 @@ for (let i = 0; i < tiles.length; i++) {
     MakeMove(i);
   });
 }
+//onclick event, ma ei anna muutuja väärtust, vaid muutjat ise
